@@ -1,0 +1,26 @@
+{
+  "name": "compienodeeex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "csvtojson": "^2.0.10",
+    "express": "^4.18.1",
+    "express-csp-header": "^5.1.0",
+    "helmet": "^5.1.0",
+    "json-2-csv": "^3.17.1",
+    "lodash.isequal": "^4.5.0",
+    "node-cron": "^3.0.1",
+    "nodemon": "^2.0.18",
+    "npm": "^8.13.1",
+    "path": "^0.12.7",
+    "uuid": "^3.3.3"
+  }
+}
