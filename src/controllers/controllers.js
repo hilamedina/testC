@@ -8,7 +8,7 @@ const { idPlayer } = require('../../api/api');
 
 const convertDataCsv = async () => {
   try {
-    const dataCsvArray = await CSVToJSON().fromFile('dataAsCsv/data.csv');
+    const dataCsvArray = await CSVToJSON().fromFile('dataBaseCsv/data.csv');
     return dataCsvArray;
   } catch (err) {
     return [];
